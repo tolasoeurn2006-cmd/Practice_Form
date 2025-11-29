@@ -1,0 +1,54 @@
+.form-table {
+  border: 2px solid black;
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Arial;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.row label {
+  width: 120px;
+  font-weight: bold;
+}
+
+.row input,
+.row select,
+.row textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.options {
+  display: flex;
+  gap: 13px;
+}
+
+textarea {
+  height: 80px;
+}
+
+.submit-row {
+  justify-content: center;
+}
+
+.submit-btn {
+  background: #1677ff;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background: #0e5cd4;
+}
